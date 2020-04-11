@@ -3,7 +3,10 @@
 $(document).ready(function(){
 
 // call functions here
-
+getIt()
+frameIt()
+pressIt()
+submitIt()
 });
 
 var getIt = function(){
@@ -26,5 +29,7 @@ var pressIt = function(){
 }
   
 var submitIt = function(){
-  
+  $('form').on('submit', function(){
+    alert ('Your form is going to be submitted now.')
+  })
 }

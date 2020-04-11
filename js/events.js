@@ -18,5 +18,7 @@ var frameIt = function(){
   })
 }
 var pressIt = function(){
-  $('input').on('keydown', function
+  $('input').on('keydown', function(){
+    if (keydown.key == )
+  })
 }

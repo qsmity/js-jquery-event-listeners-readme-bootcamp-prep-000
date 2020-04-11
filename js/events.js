@@ -13,5 +13,7 @@ $('p').on("click", function(){
 }
 
 var frameIt = function(){
-  $('')
+  $('img').on('load', function(){
+    img.append()
+  })
 }

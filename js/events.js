@@ -17,7 +17,8 @@ $('p').on("click", function(){
 
 var frameIt = function(){
   $('img').on('load', function(key){
-    key.classList.add("tasty")
+    var add = $('img')
+    add.classList.add("tasty")
   })
 }
 var pressIt = function(){

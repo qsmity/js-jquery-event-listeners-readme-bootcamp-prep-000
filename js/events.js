@@ -14,6 +14,9 @@ $('p').on("click", function(){
 
 var frameIt = function(){
   $('img').on('load', function(){
-    img.append()
+    img.classList.add("tasty")
   })
+}
+var pressIt = function(){
+  $('input').on('keydown', function
 }
